@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.game {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  color: white;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.title {
+  background-color: #f25;
+  padding: 10px 1px;
+  margin: 5px 0;
+}
+span {
+  color: #fa0;
+}
+.square {
+  width: 30%;
+  height: 190px;
+  background-color: #f25;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.square:hover {
+  background-color: #000;
+  cursor: pointer;
+}
